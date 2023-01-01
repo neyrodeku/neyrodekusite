@@ -3,9 +3,7 @@ import React, { useState } from "react";
 function Header() {
     const [lightModeEnabled, setMode] = useState(true);
 
-    const changeLightMode = () => {
-        
-    };
+    const changeLightMode = () => {};
 
     return (
         <div className="flex bg-zinc-300 w-full h-20 justify-center border-b-black border-b-2 items-center">

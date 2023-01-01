@@ -1,6 +1,6 @@
 import React from "react";
 
-function Abilities(){
+function Abilities() {
     return (
         <div className="flex flex-col justify-center mt-16">
             <span className="font-sans flex text-2xl antialiased justify-center">
@@ -31,12 +31,8 @@ function Abilities(){
                         <li className="font-sans text-lg antialiased">
                             tailwind
                         </li>
-                        <li className="font-sans text-lg antialiased">
-                            git
-                        </li>
-                        <li className="font-sans text-lg antialiased">
-                            json
-                        </li>
+                        <li className="font-sans text-lg antialiased">git</li>
+                        <li className="font-sans text-lg antialiased">json</li>
                         <li className="font-sans text-lg antialiased">
                             webpack
                         </li>

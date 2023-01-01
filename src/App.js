@@ -1,7 +1,7 @@
 import React from "react";
 
 const Header = React.lazy(() => import("./Header/Header"));
-const Main = React.lazy(() => import("./Main/Main"))
+const Main = React.lazy(() => import("./Main/Main"));
 
 function App() {
     return (

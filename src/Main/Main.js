@@ -1,6 +1,8 @@
 import React from "react";
 import avatar from "./avatar.png";
 import Abilities from "../Abilities/Abilities";
+import AboutMe from "../About/About";
+import Contacts from "../Contacts/Contacts";
 
 function Main() {
     return (
@@ -16,6 +18,8 @@ function Main() {
                     </span>
                 </div>
                 <Abilities />
+                <AboutMe />
+                <Contacts />
             </div>
         </div>
     );
