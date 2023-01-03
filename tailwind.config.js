@@ -17,9 +17,12 @@ module.exports = {
                     "100%": { transform: "translate(36px)" },
                 },
                 moveLeft: {
-                    "0%": { transform: "translate(36pxpx)" },
-                    "100%": { transform: "translate(0px)" },
+                    "0%": { transform: "translate(0px)" },
+                    "100%": { transform: "translate(-36px)" },
                 },
+                borderRight: {
+                    
+                }
             },
             animation: {
                 moveRight: "moveRight .1s ease-in-out forwards",
